@@ -1,0 +1,318 @@
+/* 
+grey:292929
+pink: f7484e
+white
+black
+ */
+
+ * {
+     box-sizing: border-box;
+ }
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.name a {
+    text-decoration: none;
+}
+
+.name h1{
+    color: white;
+}
+
+
+body {
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    /* don't need px for line height, it's just the multiple*/
+    line-height: 1.7;
+    text-align: center;
+    margin: 0px;
+    background:black;
+    color: white;
+    padding-top: 94px;
+}
+
+h1 {
+    font-family: 'Questrial';
+    font-size: 30px;
+    line-height: 1.3;;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Alegreya';
+}
+h3 {
+    font-size: 20px;
+    font-family: 'Alegreya';
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+    .name {
+        float: left;
+        padding-left: 20px;
+    }
+
+    .tabs {
+        float: right;
+        padding: 0px;
+    }
+
+    li {
+        display: inline;
+        padding: 0px 10px 0px 10px;
+    }
+   
+    ul {
+        padding: 10px;
+    }
+
+    .tabs a {
+        color: white;
+    }
+
+.intro{
+    background-color: #292929;
+    color: white;
+    height: 350px;
+    margin: 0;
+    /* overflow: auto; */
+}
+
+    .intro h2 {
+        margin:0;
+    }
+
+.about{
+    background-color: #f7484e;
+    color: white;
+    margin: 0;
+    height:700px;
+}
+
+    .about-description{
+        background-color: white;
+        color: black;
+    }
+
+    .about-description img { 
+        width: 200px;
+        border: 10px #292929;
+        border-radius: 50%;
+    }
+
+.work {
+    background-color: white;
+    color: black;
+    height: 700px;
+}
+
+.container {
+    /* width: 720px;
+    margin: 0 auto; */
+    color: white;
+    min-height: 200px;
+}
+
+    .client-project {
+        background-image:url("../images/breaks-photo.jpeg");
+    }
+
+    .feelm {
+        background-image:url("../images/film.jpeg");
+    }
+
+    .splendid-housewares {
+        background-image:url("../images/housewares.jpeg");
+    }
+
+    .cyclable{
+        background-image:url("../images/santander.jpg");
+    }
+
+    .work-sections{
+        width: 100%;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        height: 25%
+     }
+
+
+     .casestudy-item {
+        border: 1px solid white;
+        height: 175px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+        width: 100%;
+        margin: 0;
+        border: 0;
+        position: relative;
+    }
+
+    .casestudy-item .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .casestudy-item:hover .overlay {
+        opacity: 1;
+    }
+
+    .overlay {
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .overlay a {
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+.contact {
+    background-color: #292929;
+    color: white;
+    height: 700px;
+}
+
+.contact-description{
+    background-color: white;
+    color: black;
+}
+
+    .social-media {
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .contact-description img{
+        width: 50px;
+    }
+
+    input {
+        border: 1;
+        margin:10px;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    input[type="submit"] {
+        background: #f7484e;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+.goodbye {
+    background-colour: #f7484e;
+}
+
+
+
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    border:0;
+    padding:0;
+}
+
+main li {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    background color: black;
+    color: white;
+}
+
+.black h2{
+ color: white;
+}
+
+.black p{
+    color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+.white h3{
+    margin:0;
+    color: black;
+}
+
+.white p{
+    margin:0;
+    color: black;
+}
+.grey {
+    background-color:#292929;
+}
+
+.grey h3{
+    margin: 0;
+}
+
+.grey p{
+    margin:0;
+}
+
+ /* .casestudy-item:nth-child(2n) {
+     margin-right: 0;
+ } */
+
+ 
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+    /* transition: 0.3s cubic-bezier(.1,-0.49,.51,1.43);
+ }*/
+
+
+
+
+
+
+
+
