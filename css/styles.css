@@ -74,7 +74,7 @@ p {
 
 header {
     background-color: white;
-    color: black;
+    color: #5F5AA2;
     position: fixed;
     width: 100%;
     top: 0;
@@ -90,11 +90,11 @@ header {
     .tabs {
         float: right;
         padding: 0px;
-        color: black;
+        color: #5F5AA2;
     }
 
     .tabs a:hover {
-    color: #f7484e; 
+    color: #2c2c34; 
     }
 
     .tabs .icon {
@@ -111,7 +111,7 @@ header {
     }
 
     .tabs a {
-        color: black;
+        color: #2c2c34;
     }
 
 .intro{
@@ -145,12 +145,12 @@ header {
 
     .about-description{
         background-color: white;
-        color: black;
+        color: #2c2c34;
     }
 
     .about-description img { 
         width: 200px;
-        border: 10px #292929;
+        border: 10px #2c2c34;
         border-radius: 50%;
     }
 
