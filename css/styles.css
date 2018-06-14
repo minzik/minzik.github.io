@@ -46,7 +46,7 @@ body {
     line-height: 1.7;
     text-align: center;
     margin: 0px;
-    background:C7CCDB;
+    background:white;
     color: 0A0908;
     padding-top: 94px;
 }
@@ -73,8 +73,8 @@ p {
 
 
 header {
-    background-color: 35055E;
-    color: white;
+    background-color: white;
+    color: black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -115,7 +115,7 @@ header {
     }
 
 .intro{
-    background-color: #292929;
+    background-color: white;
     color: white;
     height: 350px;;
     margin: 0;
@@ -132,12 +132,6 @@ header {
 
 }
 
-.about{
-    background-color: #f7484e;
-    color: white;
-    margin: 0;
-    height:700px;
-}
     .about-icons {
         flex-direction: row;
         padding: 20px; 
@@ -168,9 +162,6 @@ header {
     border: 0;
 }
 
-.clientproject-intro{
-    background-image:url("../images/fee");
-}
 
 .container {
     /* width: 720px;
@@ -246,28 +237,6 @@ header {
 
 
 
-.brief {
-    background-color: #f7484e;
-    color: white;
-    margin: 0;
-    height: 700px;
-}
-
-.brief-description {
-    background-color: white;
-    color: black;
-    margin: 0;
-    height: 700px;
-}
-
-.problem {
-    background-color:#292929;
-    color: white;
-    margin: 0;
-    height: 700px;
-}
-
-
 
 
     .social-media {
@@ -293,11 +262,6 @@ header {
         margin: 10px;
     }
 
-.goodbye {
-    background-colour: #f7484e;
-}
-
-
 
 
 main ul {
@@ -321,11 +285,6 @@ footer {
     width: 100%;
     top: 0;
     left: 0;
-}
-
-.social-media {
-    background-color: 494850;
-    width: 100%;
 }
 
 
