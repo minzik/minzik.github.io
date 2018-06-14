@@ -1,8 +1,13 @@
 /* 
 grey:292929
 pink: f7484e
-white
-black
+deep violet: 35055E
+smoky black: 0A0908
+light pink/purple: F0D3F7
+light grey: C7CCDB
+snow white: FFFCF7
+
+
  */
 
  * {
@@ -24,7 +29,12 @@ black
 }
 
 .name h1{
-    color: white;
+    color: FFFCF7
+}
+
+.logo img{
+    height: 80px;
+    float: left;
 }
 
 
@@ -36,29 +46,34 @@ body {
     line-height: 1.7;
     text-align: center;
     margin: 0px;
-    background:black;
-    color: white;
+    background:C7CCDB;
+    color: 0A0908;
     padding-top: 94px;
 }
 
 h1 {
     font-family: 'Questrial';
-    font-size: 30px;
+    font-size: 64px;
     line-height: 1.3;;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 48px;
     font-family: 'Alegreya';
 }
 h3 {
-    font-size: 20px;
+    font-size: 36px;
+    font-family: 'Alegreya';
+}
+
+p {
+    font-size: 24px;
     font-family: 'Alegreya';
 }
 
 
 header {
-    background-color: black;
+    background-color: 35055E;
     color: white;
     position: fixed;
     width: 100%;
@@ -75,6 +90,7 @@ header {
     .tabs {
         float: right;
         padding: 0px;
+        color: black;
     }
 
     .tabs a:hover {
@@ -91,24 +107,30 @@ header {
     }
    
     ul {
-        padding: 10px;
+        padding: 0px;
     }
 
     .tabs a {
-        color: white;
+        color: black;
     }
 
 .intro{
     background-color: #292929;
     color: white;
-    height: 350px;
+    height: 350px;;
     margin: 0;
     /* overflow: auto; */
+    position: relative;
 }
 
     .intro h2 {
         margin:0;
     }
+
+    .intro img{
+    
+
+}
 
 .about{
     background-color: #f7484e;
@@ -116,6 +138,16 @@ header {
     margin: 0;
     height:700px;
 }
+    .about-icons {
+        flex-direction: row;
+        padding: 20px; 
+    }
+
+    .about-icons img { 
+        width: 200px;
+        border: 10px #292929;
+        border-radius: 50%;
+    }
 
     .about-description{
         background-color: white;
@@ -132,6 +164,12 @@ header {
     background-color: white;
     color: black;
     height: 700px;
+    margin: 0;
+    border: 0;
+}
+
+.clientproject-intro{
+    background-image:url("../images/fee");
 }
 
 .container {
@@ -142,11 +180,11 @@ header {
 }
 
     .client-project {
-        background-image:url("../images/breaks-photo.jpeg");
+        background-image:url("../images/carefreebreaks.jpg");
     }
 
     .feelm {
-        background-image:url("../images/film.jpeg");
+        background-image:url("../images/Feelm\ portfolio.jpg");
     }
 
     .splendid-housewares {
@@ -154,7 +192,7 @@ header {
     }
 
     .cyclable{
-        background-image:url("../images/santander.jpg");
+        background-image:url("../images/Santander\ portfolio.jpg");
     }
 
     .work-sections{
@@ -168,7 +206,7 @@ header {
 
      .casestudy-item {
         border: 1px solid white;
-        height: 175px;
+        height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; 
@@ -206,16 +244,31 @@ header {
         flex-direction: column;
     }
 
-.contact {
-    background-color: #292929;
+
+
+.brief {
+    background-color: #f7484e;
     color: white;
+    margin: 0;
     height: 700px;
 }
 
-.contact-description{
+.brief-description {
     background-color: white;
     color: black;
+    margin: 0;
+    height: 700px;
 }
+
+.problem {
+    background-color:#292929;
+    color: white;
+    margin: 0;
+    height: 700px;
+}
+
+
+
 
     .social-media {
         flex-direction: row;
@@ -263,43 +316,18 @@ main li {
     align-items: center;
 }
 
-.black {
-    background color: black;
-    color: white;
+footer {
+    background-color: 494850;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
-.black h2{
- color: white;
+.social-media {
+    background-color: 494850;
+    width: 100%;
 }
 
-.black p{
-    color: white;
-}
-
-.white {
-    background-color: white;
-}
-
-.white h3{
-    margin:0;
-    color: black;
-}
-
-.white p{
-    margin:0;
-    color: black;
-}
-.grey {
-    background-color:#292929;
-}
-
-.grey h3{
-    margin: 0;
-}
-
-.grey p{
-    margin:0;
-}
 
  /* .casestudy-item:nth-child(2n) {
      margin-right: 0;
@@ -309,6 +337,10 @@ main li {
 
 a {
     text-decoration: none;
+}
+
+button {
+    color: green;
 }
 
 @media screen and (max-width: 600px) {

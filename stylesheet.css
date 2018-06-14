@@ -1,0 +1,60 @@
+/* 
+grey:292929
+deep violet: 35055E
+smoky black: 0A0908
+light pink/purple: F0D3F7
+light grey: C7CCDB
+ */
+
+
+ body {
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    /* don't need px for line height, it's just the multiple*/
+    line-height: 1.7;
+    text-align: center;
+    margin: 0px;
+    background:white;
+    color: 35055E;
+}
+
+h1 {
+    font-family: 'Questrial';
+    font-size: 30px;
+    line-height: 1.3;;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Alegreya';
+}
+h3 {
+    font-size: 20px;
+    font-family: 'Alegreya';
+}
+
+header {
+    background-color: 35055E;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+    .catpicture {
+        float: left;
+        padding-left: 20px;
+    }
+
+    .tabs {
+        float: right;
+        padding: 0px;
+        color: white;
+    }
+
+    .tabs a:hover {
+    color: #f7484e; 
+    }
