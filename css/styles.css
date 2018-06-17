@@ -319,13 +319,13 @@ header a {
 
 
 .project-description{
-    margin: 20px;
+    margin: 80px;
     text-align: left;
 }
 
 .medium-link{
     text-align: left;
-    margin: 20px;
+    margin: 80px;
 }
 
 .project-description h2{
@@ -344,7 +344,7 @@ header a {
 @media (max-width: 600px) {
     
     h1 {
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 20px;
         line-height: 40px;
     }
@@ -361,10 +361,16 @@ header a {
     }
 
     p{
-        font-size: 20px;
+        font-size: 16px;
         line-height: 24px;
     }
 
+    .about-description img { 
+        width: 150px;
+        border: 10px #2c2c34;
+        border-radius: 50%;
+    }
+    
     .casestudy-item {
         height: 300px;
     }
@@ -383,6 +389,14 @@ header a {
         justify-content: center;
     }
 
+    .project-description{
+        margin: 20px;
+        text-align: left;
+    }
+
+    .medium-link{
+        margin: 20px;
+    }
 
     .logo img{
         height: 50px;
