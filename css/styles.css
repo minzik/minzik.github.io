@@ -35,6 +35,7 @@ snow white: FFFCF7
 .logo img{
     height: 80px;
     float: left;
+    margin: 10px;
 }
 
 
@@ -63,7 +64,7 @@ h2 {
 }
 h3 {
     font-size: 36px;
-    font-family: 'Alegreya';
+    font-family: 'Questrial';
 }
 
 p {
@@ -74,12 +75,12 @@ p {
 
 header {
     background-color: white;
-    color: #5F5AA2;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 100;
+    font-family: 'Questrial';
 }
 
     .name {
@@ -90,11 +91,11 @@ header {
     .tabs {
         float: right;
         padding: 0px;
-        color: #5F5AA2;
+        /* color: #5F5AA2; */
     }
 
     .tabs a:hover {
-    color: #2c2c34; 
+        text-decoration: underline;
     }
 
     .tabs .icon {
@@ -135,12 +136,20 @@ header {
     .about-icons {
         flex-direction: row;
         padding: 20px; 
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .about-icon {
+        margin: 30px;
+        width: 300px;
+    
     }
 
     .about-icons img { 
-        width: 200px;
-        border: 10px #292929;
-        border-radius: 50%;
+        border: 10px;
+        height: 70px;
     }
 
     .about-description{
@@ -171,11 +180,11 @@ header {
 }
 
     .client-project {
-        background-image:url("../images/carefreebreaks.jpg");
+        background-image:url("../images/03carefreebreaks.jpg");
     }
 
     .feelm {
-        background-image:url("../images/Feelm\ portfolio.jpg");
+        background-image:url("../images/03feelm.jpg");
     }
 
     .splendid-housewares {
@@ -183,7 +192,7 @@ header {
     }
 
     .cyclable{
-        background-image:url("../images/Santander\ portfolio.jpg");
+        background-image:url("../images/03Santander\ portfolio.jpg");
     }
 
     .work-sections{
@@ -197,7 +206,7 @@ header {
 
      .casestudy-item {
         border: 1px solid white;
-        height: 300px;
+        height: 500px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; 
@@ -281,32 +290,59 @@ main li {
 }
 
 footer {
-    background-color: 494850;
+    background-color: #494850;
+    color: white;
     width: 100%;
     top: 0;
     left: 0;
+    padding: 10px;
 }
+
+
 
 
  /* .casestudy-item:nth-child(2n) {
      margin-right: 0;
  } */
 
- 
+.project-intro img{
+    width: 100%;
+}
 
-a {
+header a {
     text-decoration: none;
 }
 
-button {
-    color: green;
+.casestudy-item a{
+    text-decoration: none;
 }
+
+
+.project-description{
+    margin: 20px;
+    text-align: left;
+}
+
+.medium-link{
+    text-align: left;
+    margin: 20px;
+}
+
+.project-description h2{
+    font-family: 'Questrial';
+}
+
+.project-intro h2{
+    font-family: 'Questrial';
+}
+
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) 
 }
 
 @media (max-width: 600px) {
+    
     h1 {
         font-size: 50px;
         margin-top: 20px;
@@ -317,12 +353,41 @@ button {
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    div {
-        margin: 20px 12px 0 12px;
+
+    h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
+
     p{
         font-size: 20px;
         line-height: 24px;
+    }
+
+    .casestudy-item {
+        height: 300px;
+    }
+
+    .footer p{
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .about-icons {
+        flex-direction: column;
+        padding: 5px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .logo img{
+        height: 50px;
+        float: left;
+        margin: 5px;
     }
 }
 
