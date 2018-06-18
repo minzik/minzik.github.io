@@ -161,6 +161,7 @@ header {
         width: 200px;
         border: 10px #2c2c34;
         border-radius: 50%;
+        margin: 10px;
     }
 
 .work {
