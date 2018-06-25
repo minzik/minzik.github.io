@@ -50,6 +50,7 @@ body {
     background:white;
     color: 0A0908;
     padding-top: 94px;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -100,15 +101,6 @@ header {
 
     .tabs .icon {
         display: none;
-    }
-
-    li {
-        display: inline;
-        padding: 0px 10px 0px 10px;
-    }
-   
-    ul {
-        padding: 0px;
     }
 
     .tabs a {
@@ -274,21 +266,7 @@ header {
 
 
 
-main ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    border:0;
-    padding:0;
-}
 
-main li {
-    flex-basis: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 footer {
     background-color: #494850;
@@ -319,9 +297,42 @@ header a {
 }
 
 
-.project-description{
-    margin: 80px;
+.row {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 50%;
     text-align: left;
+    margin: 20px;
+}
+
+.project-description{
+    max-width: 800px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.project-description img{
+    max-width: 100%;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 800px;
+}
+
+.img-with-text p {
+    font-size: 15px;
+}
+
+
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
 }
 
 .medium-link{
