@@ -39,6 +39,8 @@ snow white: FFFCF7
 }
 
 
+
+
 body {
     font-family: 'Questrial', sans-serif;
     font-family: 'Alegreya', serif;
@@ -66,6 +68,11 @@ h2 {
 }
 h3 {
     font-size: 36px;
+    font-family: 'Questrial';
+}
+
+h4 {
+    font-size: 20px;
     font-family: 'Questrial';
 }
 
@@ -173,6 +180,10 @@ header {
     min-height: 200px;
 }
 
+    .travel {
+        background-image:url("../images/03travel.jpeg");
+    }
+
     .client-project {
         background-image:url("../images/03carefreebreaks.jpg");
     }
@@ -187,6 +198,14 @@ header {
 
     .cyclable{
         background-image:url("../images/03Santander\ portfolio.jpg");
+    }
+
+    .cmt {
+        background-image:url("../images/03cmt.jpeg");
+    }
+
+    .languageresearch {
+        background-image:url("../images/03hello.jpg");
     }
 
     .work-sections{
@@ -219,6 +238,13 @@ header {
         opacity: 0;
         transition: opacity 0.3s;
     }
+
+    .casestudy-item .h4 {
+       font-family: 'Questrial';
+       font-size: 20px;
+    }
+
+
 
     .casestudy-item:hover .overlay {
         opacity: 1;
@@ -323,6 +349,8 @@ header a {
 .main img{
     max-width: 100%;
 }
+
+
 
 .img-with-text {
     text-align: justify;
