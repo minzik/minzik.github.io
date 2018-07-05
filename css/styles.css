@@ -415,9 +415,18 @@ header a {
         border: 10px #2c2c34;
         border-radius: 50%;
     }
+
+    .project-description img{
+        max-width: 400px;
+    }
+
+    .img-with-text{
+        max-width: 400px;
+    }
     
     .casestudy-item {
         height: 300px;
+        align-items: left;
     }
 
     .footer p{
